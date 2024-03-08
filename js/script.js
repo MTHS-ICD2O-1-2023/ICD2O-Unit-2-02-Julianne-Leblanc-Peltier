@@ -4,12 +4,7 @@
 // Created on: March 2024
 // This file contains the JS functions for index.html
 
-let length = 5
-let width = 3
-const area = length*width
-const perimeter = 2*(length+width)
-
 function myButtonClicked() {
-  document.getElementById("area-of-rectangle").innerHTML = area + "cm"
-  document.getElementById("perimeter-of-rectangle").innerHTML = perimeter + "cm"
+  document.getElementById("area-of-rectangle").innerHTML = (5 * 3) + " cm²"
+  document.getElementById("perimeter-of-rectangle").innerHTML = (2 * (5 + 3)) + " cm"
 }
